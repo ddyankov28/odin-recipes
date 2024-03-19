@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    color:beige;
+    font-style:oblique;
+    font-size: xx-large;
+}
+
+a{
+    color:red;
+    font-weight: bolder;
+    font-size: large;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+}
