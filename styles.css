@@ -1,19 +1,36 @@
 body{
-    background-color: beige;
+    background-image: url(img/kitchen.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1{
     text-align: center;
-    background-color: rgb(255, 0, 0);
+    background-color: black;
     color:beige;
     font-style:oblique;
+    font-size: 3em;
+}
+
+ul{
+    text-align: center;
+    list-style-type: decimal;
+    color: brown;
     font-size: xx-large;
 }
 
 a{
-    color:red;
+    color:brown;
     font-weight: bolder;
-    font-size: large;
+    font-size: xx-large;
     font-style: italic;
     font-family:'Courier New', Courier, monospace;
+    border: outset 5px black;
+    display: block;
+    margin: 10px;
+    text-align: center;
 }
+
+a:link {text-decoration: none; }
